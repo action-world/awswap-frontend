@@ -53,7 +53,7 @@ const MenuEntry = styled.div<Props>`
   ${({ isActive }) =>
     isActive
       ? `
-    background-color: #c1272d;
+    background-color: #F56020;
     color: #ffffff; /*${({ theme }) => theme.colors.textSubtle};*/
 
     svg {

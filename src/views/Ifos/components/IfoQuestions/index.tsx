@@ -158,7 +158,7 @@ const TextButtonRed = styled(Text)`
   font-size: 14px;
   line-height: 38px;
   color: #ffffff;
-  background: #c1272d;
+  background: #f56020;
   border-radius: 8px;
   text-align: center;
   width: 249px;

@@ -68,7 +68,7 @@ const PageHeader = styled.div`
   width: 100%;
   heigth: 200px;
   //background: linear-gradient(256.48deg, #9443e5 -1.81%, #793ef6 32.29%, #5a40ee 64.06%, #5f42e9 102.57%);
-  background: linear-gradient(to left, #ed1c24, #c1272d);
+  background: linear-gradient(259.42deg, #ffc700 4.93%, #f56020 92.22%);
   padding: 20px 40px;
   border-radius: 10px;
 `

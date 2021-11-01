@@ -104,7 +104,7 @@ export const StyledImage = styled(Image)`
 const PageHeader = styled.div`
   width: 100%;
   heigth: 200px;
-  background: linear-gradient(to right, #ed1c24, #c1272d);
+  background: linear-gradient(259.42deg, #ffc700 4.93%, #f56020 92.22%);
   padding: 20px 40px;
   border-radius: 10px;
 `
@@ -112,7 +112,7 @@ const PageHeader = styled.div`
 const RadioCom = styled.div`
   display: block;
   background: #fff;
-  border: 1px solid #c1272d;
+  border: 1px solid #f56020;
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -123,7 +123,7 @@ const RadioCom = styled.div`
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background: #c1272d;
+    background: #f56020;
     width: 8px;
     height: 8px;
     border-radius: 50%;

@@ -18,8 +18,8 @@ import store from 'state'
 
 const resetTheme = () => {
   // 修改主色
-  light.colors.primary = '#c1272d'
-  dark.colors.primary = '#c1272d'
+  light.colors.primary = '#F56020'
+  dark.colors.primary = '#F56020'
 
   // light.colors.input = '#BC232C'
 
