@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@farswap/farswap-sdk'
+import { Currency, ETHER, Token } from '@aswap/awswap-sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 import useHttpLocations from '../../hooks/useHttpLocations'

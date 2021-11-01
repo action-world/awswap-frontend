@@ -81,6 +81,26 @@
   dependencies:
     tslib "~2.0.1"
 
+"@aswap/awswap-sdk@file:../awswap-sdk":
+  version "2.3.2"
+  dependencies:
+    "@awswap/awswap-core" "../awswap-core"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
+"@awswap/awswap-core@../awswap-core":
+  version "0.1.0"
+  dependencies:
+    "@ethersproject/solidity" "^5.4.0"
+    "@truffle/hdwallet-provider" "^1.5.0"
+    truffle "^5.1.41"
+    truffle-flattener "^1.4.4"
+    truffle-hdwallet-provider "^1.0.17"
+
 "@babel/code-frame@7.10.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
@@ -1916,26 +1936,6 @@
     "@ethersproject/logger" "^5.4.0"
     "@ethersproject/properties" "^5.4.0"
     "@ethersproject/strings" "^5.4.0"
-
-"@farswap/farswap-core@../farswap-core":
-  version "0.1.0"
-  dependencies:
-    "@ethersproject/solidity" "^5.4.0"
-    "@truffle/hdwallet-provider" "^1.5.0"
-    truffle "^5.1.41"
-    truffle-flattener "^1.4.4"
-    truffle-hdwallet-provider "^1.0.17"
-
-"@farswap/farswap-sdk@file:../farswap-sdk":
-  version "2.3.2"
-  dependencies:
-    "@farswap/farswap-core" "../farswap-core"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
 
 "@graphql-tools/batch-delegate@^6.2.4", "@graphql-tools/batch-delegate@^6.2.6":
   version "6.2.6"

@@ -1,4 +1,4 @@
-import { Token } from '@farswap/farswap-sdk'
+import { Token } from '@aswap/awswap-sdk'
 import { parseUnits } from 'ethers/lib/utils'
 import { SerializedToken } from '../actions'
 

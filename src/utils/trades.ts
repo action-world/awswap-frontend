@@ -1,4 +1,4 @@
-import { Trade, Percent, currencyEquals } from '@farswap/farswap-sdk'
+import { Trade, Percent, currencyEquals } from '@aswap/awswap-sdk'
 import { ZERO_PERCENT, ONE_HUNDRED_PERCENT } from '../config/constants/index'
 
 // returns whether tradeB is better than tradeA by at least a threshold percentage amount

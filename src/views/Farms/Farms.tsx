@@ -4,7 +4,7 @@ import BigNumber from 'bignumber.js'
 
 import { useWeb3React } from '@web3-react/core'
 import { Image, Heading, RowType, Text, Flex } from '@pancakeswap/uikit'
-import { ChainId } from '@farswap/farswap-sdk'
+import { ChainId } from '@aswap/awswap-sdk'
 import styled from 'styled-components'
 import FlexLayout from 'components/Layout/Flex'
 import Page from 'components/Layout/Page'

@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Token } from '@farswap/farswap-sdk'
+import { Token } from '@aswap/awswap-sdk'
 import { isAddress } from '../../utils'
 
 export function filterTokens(tokens: Token[], search: string): Token[] {

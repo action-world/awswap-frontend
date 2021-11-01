@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@farswap/farswap-sdk'
+import { Token, TokenAmount } from '@aswap/awswap-sdk'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 

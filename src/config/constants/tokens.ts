@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@farswap/farswap-sdk'
+import { ChainId, Token } from '@aswap/awswap-sdk'
 
 export const USDT: { [chainId: number]: Token } = {
   [ChainId.MAINNET]: new Token(

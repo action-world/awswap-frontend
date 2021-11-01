@@ -1,4 +1,4 @@
-import { Token as SDKToken, Pair, ChainId } from '@farswap/farswap-sdk'
+import { Token as SDKToken, Pair, ChainId } from '@aswap/awswap-sdk'
 import tokens from './tokens'
 import { FarmAuctionBidderConfig, Token } from './types'
 

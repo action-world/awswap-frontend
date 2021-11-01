@@ -1,4 +1,4 @@
-import { ChainId } from '@farswap/farswap-sdk'
+import { ChainId } from '@aswap/awswap-sdk'
 import BigNumber from 'bignumber.js/bignumber'
 import { BIG_TEN } from 'utils/bigNumber'
 

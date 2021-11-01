@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@farswap/farswap-sdk'
+import { Currency, ETHER, Token } from '@aswap/awswap-sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'HO'

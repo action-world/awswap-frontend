@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token } from '@farswap/farswap-sdk'
+import { ChainId, JSBI, Percent, Token } from '@aswap/awswap-sdk'
 import { USDT, FAR, WHO } from './tokens'
 
 export const ROUTER_ADDRESS = '0x379f42915ddeafAf8fb8C23bAA9C7754ca552f3B'

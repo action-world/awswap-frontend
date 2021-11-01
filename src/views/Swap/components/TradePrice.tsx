@@ -1,5 +1,5 @@
 import React from 'react'
-import { Price } from '@farswap/farswap-sdk'
+import { Price } from '@aswap/awswap-sdk'
 import { Text, AutoRenewIcon } from '@pancakeswap/uikit'
 import { StyledBalanceMaxMini } from './styleds'
 

@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from '@farswap/farswap-sdk'
+import { CurrencyAmount, ETHER, JSBI } from '@aswap/awswap-sdk'
 import { MIN_BNB } from '../config/constants'
 
 /**

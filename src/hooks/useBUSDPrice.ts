@@ -1,4 +1,4 @@
-import { ChainId, Currency, currencyEquals, JSBI, Price, WETH } from '@farswap/farswap-sdk'
+import { ChainId, Currency, currencyEquals, JSBI, Price, WETH } from '@aswap/awswap-sdk'
 import { useMemo } from 'react'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { USDT, FAR } from '../config/constants/tokens'

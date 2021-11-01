@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
-import { Pair } from '@farswap/farswap-sdk'
+import { Pair } from '@aswap/awswap-sdk'
 import { Text, Flex as RawFlex, CardBody, CardFooter as Footer, Button, AddIcon } from '@pancakeswap/uikit'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'contexts/Localization'

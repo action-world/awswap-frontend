@@ -1,4 +1,4 @@
-import { ChainId, Pair, Token } from '@farswap/farswap-sdk'
+import { ChainId, Pair, Token } from '@aswap/awswap-sdk'
 import flatMap from 'lodash/flatMap'
 import { useCallback, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

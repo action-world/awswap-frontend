@@ -6,7 +6,7 @@ import { useTranslation } from 'contexts/Localization'
 import useDelayedUnmount from 'hooks/useDelayedUnmount'
 import { useFarmUser } from 'state/farms/hooks'
 import useBUSDPrice from 'hooks/useBUSDPrice'
-import { ChainId, Token } from '@farswap/farswap-sdk'
+import { ChainId, Token } from '@aswap/awswap-sdk'
 import BigNumber from 'bignumber.js'
 import { DEFAULT_TOKEN_DECIMAL } from 'config'
 
