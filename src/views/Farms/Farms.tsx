@@ -104,7 +104,7 @@ export const StyledImage = styled(Image)`
 const PageHeader = styled.div`
   width: 100%;
   heigth: 200px;
-  background: linear-gradient(256.48deg, #9443e5 -1.81%, #793ef6 32.29%, #5a40ee 64.06%, #5f42e9 102.57%);
+  background: linear-gradient(to right, #ed1c24, #c1272d);
   padding: 20px 40px;
   border-radius: 10px;
 `
@@ -112,7 +112,7 @@ const PageHeader = styled.div`
 const RadioCom = styled.div`
   display: block;
   background: #fff;
-  border: 1px solid #4e3cfb;
+  border: 1px solid #c1272d;
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -123,7 +123,7 @@ const RadioCom = styled.div`
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background: #4e3cfb;
+    background: #c1272d;
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -478,7 +478,7 @@ const Farms: React.FC = () => {
           </Flex>
         )}
         <div ref={loadMoreRef} />
-        <StyledImage src="/images/footer-logo.png" alt="Pancake illustration" width={85} height={40} />
+        <StyledImage src="/images/footer-logo.png" alt="Pancake illustration" width={85} height={85} />
       </Page>
     </>
   )

@@ -81,7 +81,7 @@ export const ActionContent = styled.div`
     height: 38px;
     line-height: 38px;
     text-align: center;
-    background: #4e3cfb;
+    background: #c1272d;
     border-radius: 8px;
     font-family: PingFang SC;
     font-style: normal;
@@ -95,7 +95,7 @@ export const ActionContent = styled.div`
     height: 38px;
     line-height: 38px;
     text-align: center;
-    background: #4e3cfb;
+    background: #c1272d;
     color: #fff;
   }
 `

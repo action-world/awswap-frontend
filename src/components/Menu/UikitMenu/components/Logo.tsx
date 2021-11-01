@@ -58,7 +58,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const innerLogo = (
     <>
       <RawLogo style={{ width: 24, height: 24 }} />
-      <Text isDark={isDark}>FARSwap</Text>
+      <Text isDark={isDark}>AWSWAP</Text>
     </>
   )
 

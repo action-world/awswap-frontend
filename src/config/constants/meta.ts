@@ -2,9 +2,9 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'FARSwap',
+  title: 'AWSWAP',
   description:
-    'FARSwap features a dual trading model at its core, a combination of AMM, to provide users with more precise price in trading.',
+    'About Action World upcoming launch on HALO chain. Action World is an IDO platform and SWAP decentralized exchange based on HALO Chain. AW’s vision is to become an incubator for projects in Southeast Asia. The success of AW will drive the growth of Halo Chain in Southeast Asia, as such Halo Labs will also actively promote the launch and development of AW.',
   image: '/images/hero.png',
 }
 

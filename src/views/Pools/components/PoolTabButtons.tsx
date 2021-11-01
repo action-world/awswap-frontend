@@ -40,7 +40,7 @@ const ViewControls = styled.div`
 const RadioCom = styled.div`
   display: block;
   background: #fff;
-  border: 1px solid #4e3cfb;
+  border: 1px solid #c1272d;
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -51,7 +51,7 @@ const RadioCom = styled.div`
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background: #4e3cfb;
+    background: #c1272d;
     width: 8px;
     height: 8px;
     border-radius: 50%;

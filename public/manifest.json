@@ -1,7 +1,7 @@
 {
-  "short_name": "FARSwap",
-  "name": "FARSwap",
-  "description": "FARSwap",
+  "short_name": "AWSWAP",
+  "name": "AWSWAP",
+  "description": "AWSWAP",
   "homepage_url": "https://halo.land/swap/",
   "start_url": ".",
   "display": "standalone",
