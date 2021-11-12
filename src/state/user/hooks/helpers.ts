@@ -1,4 +1,4 @@
-import { Token } from '@aswap/awswap-sdk'
+import { Token } from '@awswap/sdk'
 import { parseUnits } from 'ethers/lib/utils'
 import { SerializedToken } from '../actions'
 

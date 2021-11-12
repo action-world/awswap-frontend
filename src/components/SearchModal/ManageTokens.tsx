@@ -1,5 +1,5 @@
 import React, { useRef, RefObject, useCallback, useState, useMemo } from 'react'
-import { Token } from '@aswap/awswap-sdk'
+import { Token } from '@awswap/sdk'
 import { Text, CloseIcon, IconButton, LinkExternal, Input, Link } from '@pancakeswap/uikit'
 import styled from 'styled-components'
 import Row, { RowBetween, RowFixed } from 'components/Layout/Row'

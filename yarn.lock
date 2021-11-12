@@ -81,7 +81,16 @@
   dependencies:
     tslib "~2.0.1"
 
-"@aswap/awswap-sdk@file:../awswap-sdk":
+"@awswap/awswap-core@../awswap-core":
+  version "0.1.0"
+  dependencies:
+    "@ethersproject/solidity" "^5.4.0"
+    "@truffle/hdwallet-provider" "^1.5.0"
+    truffle "^5.1.41"
+    truffle-flattener "^1.4.4"
+    truffle-hdwallet-provider "^1.0.17"
+
+"@awswap/sdk@file:../awswap-sdk":
   version "2.3.2"
   dependencies:
     "@awswap/awswap-core" "../awswap-core"
@@ -91,15 +100,6 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
-
-"@awswap/awswap-core@../awswap-core":
-  version "0.1.0"
-  dependencies:
-    "@ethersproject/solidity" "^5.4.0"
-    "@truffle/hdwallet-provider" "^1.5.0"
-    truffle "^5.1.41"
-    truffle-flattener "^1.4.4"
-    truffle-hdwallet-provider "^1.0.17"
 
 "@babel/code-frame@7.10.4":
   version "7.10.4"

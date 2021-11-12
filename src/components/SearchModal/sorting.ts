@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@aswap/awswap-sdk'
+import { Token, TokenAmount } from '@awswap/sdk'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 

@@ -1,5 +1,5 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import { Token, TokenAmount } from '@aswap/awswap-sdk'
+import { Token, TokenAmount } from '@awswap/sdk'
 import { useTokenContract } from './useContract'
 import { useSingleCallResult } from '../state/multicall/hooks'
 

@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react'
 import styled from 'styled-components'
-import { Trade, TradeType } from '@aswap/awswap-sdk'
+import { Trade, TradeType } from '@awswap/sdk'
 import { Button, Text, AutoRenewIcon } from '@pancakeswap/uikit'
 import { Field } from 'state/swap/actions'
 import {

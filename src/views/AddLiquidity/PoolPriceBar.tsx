@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from '@aswap/awswap-sdk'
+import { Currency, Percent, Price } from '@awswap/sdk'
 import React from 'react'
 import { Text } from '@pancakeswap/uikit'
 import { useTranslation } from 'contexts/Localization'

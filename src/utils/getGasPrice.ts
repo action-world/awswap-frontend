@@ -1,4 +1,4 @@
-import { ChainId } from '@aswap/awswap-sdk'
+import { ChainId } from '@awswap/sdk'
 import store from 'state'
 import { GAS_PRICE_GWEI } from 'state/user/hooks/helpers'
 

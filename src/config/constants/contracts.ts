@@ -1,6 +1,7 @@
 export default {
   masterChef: {
-    1280: '0x0ddd83e4459e70D58ad167775d5EECa729818bae',
+    1280: '0x0ddd83e4459e70D58ad167775d5EECa729818bae', // FARSwap
+    // 1280: '0x224B525239669DAd0D2eA5b3ab89CdD48Bf1077d', // AWSwap
   },
   sousChef: {
     1280: '0x000000000000000000000000000000000000dead',

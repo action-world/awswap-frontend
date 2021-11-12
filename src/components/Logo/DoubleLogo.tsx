@@ -1,5 +1,5 @@
 import React from 'react'
-import { Currency } from '@aswap/awswap-sdk'
+import { Currency } from '@awswap/sdk'
 import styled from 'styled-components'
 import CurrencyLogo from './CurrencyLogo'
 

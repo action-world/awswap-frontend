@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { ChainId } from '@aswap/awswap-sdk'
+import { ChainId } from '@awswap/sdk'
 import { useFarms, usePriceCakeBusd } from 'state/farms/hooks'
 import { useAppDispatch } from 'state'
 import { fetchFarmsPublicDataAsync, nonArchivedFarms } from 'state/farms'

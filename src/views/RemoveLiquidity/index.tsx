@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { splitSignature } from '@ethersproject/bytes'
 import { Contract } from '@ethersproject/contracts'
 import { TransactionResponse } from '@ethersproject/providers'
-import { Currency, currencyEquals, ETHER, Percent, WETH } from '@aswap/awswap-sdk'
+import { Currency, currencyEquals, ETHER, Percent, WETH } from '@awswap/sdk'
 import { Button, Text, AddIcon, ArrowDownIcon, CardBody, Box, Flex, useModal } from '@pancakeswap/uikit'
 import { RouteComponentProps } from 'react-router'
 import { BigNumber } from '@ethersproject/bignumber'
@@ -115,7 +115,7 @@ export default function RemoveLiquidity({
       { name: 'verifyingContract', type: 'address' },
     ]
     const domain = {
-      name: 'FarSwap LPs',
+      name: 'AWSwap LPs',
       version: '1',
       chainId,
       verifyingContract: pair.liquidityToken.address,

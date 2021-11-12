@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { Trade, TradeType } from '@aswap/awswap-sdk'
+import { Trade, TradeType } from '@awswap/sdk'
 import { Button, Text, ErrorIcon, ArrowDownIcon } from '@pancakeswap/uikit'
 import { Field } from 'state/swap/actions'
 import { isAddress, shortenAddress } from 'utils'

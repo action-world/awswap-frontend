@@ -10,7 +10,7 @@ import { useAppDispatch } from 'state'
 import { fetchFarmUserDataAsync } from 'state/farms'
 import useBUSDPrice from 'hooks/useBUSDPrice'
 import useToast from 'hooks/useToast'
-import { ChainId, Token } from '@aswap/awswap-sdk'
+import { ChainId, Token } from '@awswap/sdk'
 import { useTranslation } from 'contexts/Localization'
 import useHarvestFarm from '../../../hooks/useHarvestFarm'
 

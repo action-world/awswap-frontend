@@ -1,7 +1,7 @@
-import { ChainId, JSBI, Percent, Token } from '@aswap/awswap-sdk'
+import { ChainId, JSBI, Percent, Token } from '@awswap/sdk'
 import { USDT, FAR, WHO } from './tokens'
 
-export const ROUTER_ADDRESS = '0x379f42915ddeafAf8fb8C23bAA9C7754ca552f3B'
+export const ROUTER_ADDRESS = '0xB80122C3096AbDd09D43660905895Be41707CC9d'
 
 // a list of tokens by chain
 type ChainTokenList = {
