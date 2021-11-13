@@ -14,12 +14,12 @@
   ],
   "tokens": [
     {
-      "name": "HO",
-      "symbol": "WHO",
-      "address": "0x34024eE6941343924e8720F5F4B8f22B0274D993",
+      "name": "Action world",
+      "symbol": "AW",
+      "address": "0xd9B2972f408bf5d33578ccA173940493d837Aa77",
       "chainId": 1280,
       "decimals": 18,
-      "logoURI": "http://52.221.234.124/images/tokens/0x34024eE6941343924e8720F5F4B8f22B0274D993.png"
+      "logoURI": "http://52.221.234.124/images/tokens/0xd9B2972f408bf5d33578ccA173940493d837Aa77.png"
     },
     {
       "name": "Halo-Peg USDT",
@@ -28,30 +28,6 @@
       "chainId": 1280,
       "decimals": 18,
       "logoURI": "http://52.221.234.124/images/tokens/0x41515885251e724233c6cA94530d6dcf3A20dEc7.png"
-    },
-    {
-      "name": "Halo-Peg Far Token",
-      "symbol": "FAR",
-      "address": "0x4A9C0bcd5500E2D8135aC6ec9504bEFb5AE59266",
-      "chainId": 1280,
-      "decimals": 18,
-      "logoURI": "http://52.221.234.124/images/tokens/0x4A9C0bcd5500E2D8135aC6ec9504bEFb5AE59266.png"
-    },
-    {
-      "name": "FARC Token",
-      "symbol": "FARC",
-      "address": "0x3Fb94052881f43C160aee6c8E1ACd6234830EEF2",
-      "chainId": 1280,
-      "decimals": 18,
-      "logoURI": "http://52.221.234.124/images/tokens/0x3Fb94052881f43C160aee6c8E1ACd6234830EEF2.png"
-    },
-    {
-      "name": "ZEED Community Autonomous Token",
-      "symbol": "ZEED",
-      "address": "0xF20073A15FdD8E30d29F53D08FABE7E8A4b60223",
-      "chainId": 1280,
-      "decimals": 18,
-      "logoURI": "http://52.221.234.124/images/tokens/0xF20073A15FdD8E30d29F53D08FABE7E8A4b60223.png"
     }
   ]
 }

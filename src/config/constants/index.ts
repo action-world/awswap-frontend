@@ -1,5 +1,5 @@
 import { ChainId, JSBI, Percent, Token } from '@awswap/sdk'
-import { USDT, FAR, WHO } from './tokens'
+import { USDT, FAR, WHO, AW } from './tokens'
 
 export const ROUTER_ADDRESS = '0xB80122C3096AbDd09D43660905895Be41707CC9d'
 
@@ -32,16 +32,16 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
-  [ChainId.MAINNET]: [USDT[ChainId.MAINNET], FAR[ChainId.MAINNET], WHO[ChainId.MAINNET]],
+  [ChainId.MAINNET]: [USDT[ChainId.MAINNET], AW[ChainId.MAINNET]],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
-  [ChainId.MAINNET]: [USDT[ChainId.MAINNET], FAR[ChainId.MAINNET], WHO[ChainId.MAINNET]],
+  [ChainId.MAINNET]: [USDT[ChainId.MAINNET], AW[ChainId.MAINNET]],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
-  [ChainId.MAINNET]: [[USDT[ChainId.MAINNET], FAR[ChainId.MAINNET]]],
+  [ChainId.MAINNET]: [[USDT[ChainId.MAINNET], AW[ChainId.MAINNET]]],
 }
 
 export const NetworkContextName = 'NETWORK'
