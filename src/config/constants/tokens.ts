@@ -21,7 +21,7 @@ export const FAR: { [chainId: number]: Token } = {
 }
 
 export const AW: { [chainId: number]: Token } = {
-  [ChainId.MAINNET]: new Token(ChainId.MAINNET, '0xd9B2972f408bf5d33578ccA173940493d837Aa77', 18, 'AW', 'Action world'),
+  [ChainId.MAINNET]: new Token(ChainId.MAINNET, '0x0c4Cc6eaA9fc4aAd02f939766ea9cE4a77D2B5cc', 18, 'AW', 'Action world'),
 }
 
 export const FARC: { [chainId: number]: Token } = {

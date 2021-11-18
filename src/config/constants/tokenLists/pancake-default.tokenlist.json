@@ -8,18 +8,15 @@
   },
   "tags": {},
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": [
-    "pancake",
-    "default"
-  ],
+  "keywords": ["pancake", "default"],
   "tokens": [
     {
       "name": "Action world",
       "symbol": "AW",
-      "address": "0xd9B2972f408bf5d33578ccA173940493d837Aa77",
+      "address": "0x0c4Cc6eaA9fc4aAd02f939766ea9cE4a77D2B5cc",
       "chainId": 1280,
       "decimals": 18,
-      "logoURI": "http://52.221.234.124/images/tokens/0xd9B2972f408bf5d33578ccA173940493d837Aa77.png"
+      "logoURI": "http://52.221.234.124/images/tokens/0x0c4Cc6eaA9fc4aAd02f939766ea9cE4a77D2B5cc.png"
     },
     {
       "name": "Halo-Peg USDT",
