@@ -8,9 +8,9 @@ const farms: FarmConfig[] = [
     lpAddresses: {
       1280: '0x48806Cc7104201BDefA428E92Da3FD4A18B3b9E1',
     },
-    token: tokens.far,
+    token: tokens.aw,
     quoteToken: tokens.usdt,
-    earningToken: tokens.farc,
+    earningToken: tokens.aw,
   },
 ]
 

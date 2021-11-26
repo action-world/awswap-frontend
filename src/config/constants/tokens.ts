@@ -10,26 +10,12 @@ export const USDT: { [chainId: number]: Token } = {
   ),
 }
 
-export const FAR: { [chainId: number]: Token } = {
-  [ChainId.MAINNET]: new Token(
-    ChainId.MAINNET,
-    '0x4A9C0bcd5500E2D8135aC6ec9504bEFb5AE59266',
-    18,
-    'FAR',
-    'Halo-Peg Far Token',
-  ),
-}
-
 export const AW: { [chainId: number]: Token } = {
   [ChainId.MAINNET]: new Token(ChainId.MAINNET, '0x0c4Cc6eaA9fc4aAd02f939766ea9cE4a77D2B5cc', 18, 'AW', 'Action world'),
 }
 
-export const FARC: { [chainId: number]: Token } = {
-  [ChainId.MAINNET]: new Token(ChainId.MAINNET, '0x3Fb94052881f43C160aee6c8E1ACd6234830EEF2', 18, 'FARC', 'FARC Token'),
-}
-
 export const WHO: { [chainId: number]: Token } = {
-  [ChainId.MAINNET]: new Token(ChainId.MAINNET, '0x34024eE6941343924e8720F5F4B8f22B0274D993', 18, 'WHO', 'WHO'),
+  [ChainId.MAINNET]: new Token(ChainId.MAINNET, '0xCb12e98C94A6274fA9e2F446e05B84cd27867142', 18, 'WHO', 'WHO'),
 }
 
 const tokens = {
@@ -40,7 +26,7 @@ const tokens = {
   who: {
     symbol: 'WHO',
     address: {
-      1280: '0x34024eE6941343924e8720F5F4B8f22B0274D993',
+      1280: '0xCb12e98C94A6274fA9e2F446e05B84cd27867142',
     },
     decimals: 18,
   },
@@ -51,24 +37,10 @@ const tokens = {
     },
     decimals: 18,
   },
-  far: {
-    symbol: 'FAR',
+  aw: {
+    symbol: 'AW',
     address: {
-      1280: '0x4A9C0bcd5500E2D8135aC6ec9504bEFb5AE59266',
-    },
-    decimals: 18,
-  },
-  farc: {
-    symbol: 'FARC',
-    address: {
-      1280: '0x3Fb94052881f43C160aee6c8E1ACd6234830EEF2',
-    },
-    decimals: 18,
-  },
-  zeed: {
-    symbol: 'ZEED',
-    address: {
-      1280: '0xF20073A15FdD8E30d29F53D08FABE7E8A4b60223',
+      1280: '0x0c4Cc6eaA9fc4aAd02f939766ea9cE4a77D2B5cc',
     },
     decimals: 18,
   },

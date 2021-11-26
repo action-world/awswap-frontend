@@ -1,5 +1,5 @@
 import { ChainId, JSBI, Percent, Token } from '@awswap/sdk'
-import { USDT, FAR, WHO, AW } from './tokens'
+import { USDT, WHO, AW } from './tokens'
 
 export const ROUTER_ADDRESS = '0xB80122C3096AbDd09D43660905895Be41707CC9d'
 
@@ -10,7 +10,7 @@ type ChainTokenList = {
 
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
-  [ChainId.MAINNET]: [USDT[ChainId.MAINNET], FAR[ChainId.MAINNET], WHO[ChainId.MAINNET]],
+  [ChainId.MAINNET]: [USDT[ChainId.MAINNET], AW[ChainId.MAINNET], WHO[ChainId.MAINNET]],
 }
 
 /**

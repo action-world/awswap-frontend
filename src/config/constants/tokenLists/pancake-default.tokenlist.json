@@ -8,7 +8,10 @@
   },
   "tags": {},
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": ["pancake", "default"],
+  "keywords": [
+    "pancake",
+    "default"
+  ],
   "tokens": [
     {
       "name": "Action world",
@@ -25,6 +28,22 @@
       "chainId": 1280,
       "decimals": 18,
       "logoURI": "http://52.221.234.124/images/tokens/0x41515885251e724233c6cA94530d6dcf3A20dEc7.png"
+    },
+    {
+      "name": "HO",
+      "symbol": "WHO",
+      "address": "0xCb12e98C94A6274fA9e2F446e05B84cd27867142",
+      "chainId": 1280,
+      "decimals": 18,
+      "logoURI": "https://swap.halo.land/images/tokens/0x41b474F1E7413d472CA93dFd01eE4Ea0a7245430.png"
+    },
+    {
+      "name": "HO",
+      "symbol": "WHO-FAR",
+      "address": "0x34024eE6941343924e8720F5F4B8f22B0274D993",
+      "chainId": 1280,
+      "decimals": 18,
+      "logoURI": "https://swap.halo.land/images/tokens/0x41b474F1E7413d472CA93dFd01eE4Ea0a7245430.png"
     }
   ]
 }
