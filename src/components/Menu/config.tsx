@@ -41,6 +41,11 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     icon: Bridge,
     href: 'https://halo.land/#/bridgePage',
   },
+  {
+    label: t('Genesis'),
+    icon: Pledge,
+    href: 'https://www.actionworld.io/genesis',
+  },
   // TODO 销毁挖矿
   // {
   //   label: t('IFO'),
